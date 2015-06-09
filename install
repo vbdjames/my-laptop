@@ -27,10 +27,10 @@ if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]]; then
 fi
 
 # update (or clone) my dotfiles
-if [ -d "$HOME/dotfiles/" ]; then
-  git -C $HOME/dotfiles pull 
+if [ -d "$HOME/.dotfiles/" ]; then
+  git -C $HOME/.dotfiles pull 
 else
-  git clone https://github.com/vbdjames/dotfiles.git ~/dotfiles
+  git clone https://github.com/vbdjames/dotfiles.git ~/.dotfiles
 fi
 
 if [ ! -d "$HOME/.bin/" ]; then

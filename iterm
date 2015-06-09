@@ -53,11 +53,11 @@ do
         $plb -c "Delete :New\ Bookmarks:$idx:Selection\ Color" $dest
         $plb -c "Copy :Custom\ Color\ Presets:Solarized\ Dark:Selection\ Color :New\ Bookmarks:$idx:Selection\ Color" $dest
 
-
         $plb -c "Set :New\ Bookmarks:$idx:Use\ Bold\ Font 0" $dest
         $plb -c "Set :New\ Bookmarks:$idx:Use\ Bright\ Bold 0" $dest
         $plb -c "Set :New\ Bookmarks:$idx:Normal\ Font SourceCodePro-Regular\ 15" $dest
         $plb -c "Set :New\ Bookmarks:$idx:Non\ Ascii\ Font SourceCodePro-Regular\ 15" $dest
+        $plb -c "Set :New\ Bookmarks:$idx:Minimum\ Contrast 0.25" $dest
     fi
 done
 
