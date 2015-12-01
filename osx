@@ -39,6 +39,9 @@ chflags nohidden ~/Library/
 
 sudo spctl --master-disable
 
+# remove all the persistent-apps
+defaults write com.apple.dock persistent-apps '<dict></dict>'
+
 # speed up wake from sleep - don't sleep until sleeping 24 hours
 sudo pmset -a standbydelay 86400
 
@@ -67,6 +70,7 @@ defaults write com.apple.Safari IncludeDebugMenu -bool true
 
 # open new finder window in home directory
 defaults write com.apple.finder NewWIndowTargetPath -string file:///Users/vbdjames/
+
 # com.apple.sidebarlists.plist 
 
 killall Dock
