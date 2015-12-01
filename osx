@@ -39,10 +39,6 @@ chflags nohidden ~/Library/
 
 sudo spctl --master-disable
 
-# remove all the persistent-apps
-defaults write com.apple.dock persistent-apps '<dict></dict>'
-
-
 # speed up wake from sleep - don't sleep until sleeping 24 hours
 sudo pmset -a standbydelay 86400
 
