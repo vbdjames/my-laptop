@@ -2,7 +2,8 @@
 
 * install OS X
 * install Xcode
-* open terminal, xcode-select --install
+* $ xcode-select --install
+* $ sudo git (and agree to license)
 * install keys
 * git clone https://github.com/vbdjames/strap.git ~/strap
 
