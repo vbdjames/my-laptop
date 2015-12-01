@@ -1,17 +1,5 @@
-brew_install_or_upgrade nvm
+brew_install_or_upgrade node
 
-if [ ! -d "$HOME/.nvm/" ]; then
-  mkdir "$HOME/.nvm"
-fi
-
-if [ ! -e "$HOME/.nvm/nvm.sh" ]; then
-  ln $(brew --prefix nvm)/nvm.sh $HOME/.nvm/nvm.sh
-fi
-
-set +e
-source $(brew --prefix nvm)/nvm.sh
-set -e
-nvm install
-
+npm install -g n
 npm install -g jscs
 npm install -g jshint 
