@@ -12,5 +12,5 @@ cask_install skype
 cask_install slack
 cask_install slate
 cask_install spotify
-cast_install taskpaper
+cask_install taskpaper
 cask_install ynab
