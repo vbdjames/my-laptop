@@ -5,20 +5,19 @@ manually.
 
  1) Launch dropbox and login - get the sync started
  2) Change the launch key for Alfred to CTRL-SPACE
- 3) Setup gmail and fastmail in Mail
- 4) System Preferences -> Security & Privacy -> Privacy, enable Slate & Karabiner
- 5) Set Slate to launch on login
- 6) Set Karabiner to launch on login
- 7) Once dropbox is synced, launch 1Password & set up sync to dropbox
- 8) Launch Chrome, login, let it link to 1Password, install instapaper plugin
- 9) Launch Safari, let it link to 1Password, install instapaper plugin
-10) Login to Spotify
+ 3) System Preferences -> Security & Privacy -> Privacy, enable Slate
+ 4) Set Slate to launch on login
+ 5) Once dropbox is synced, launch 1Password & set up sync to dropbox
+ 6) Launch Chrome, login, let it link to 1Password, install instapaper plugin
+ 7) Launch Safari, let it link to 1Password, install instapaper plugin
+ 8) Login to Spotify
+ 9) Install Alfred Powerpack
 
-* install alfred powerpack
-* install app store apps
 * setup favorites in finder
     + Home
     - All My Files
-* install ssh keys & known hosts from thumb drive
-* set up hyper key mappings as they occur to me with keyboard maestro
+* add applications folder to dock, set to view as folder
+* set downloads to display as folder in dock
+* install app store apps
+* complete iterm setup - this is currently still borked - and it has to be launched to create its defaults before the script can change them (and other issues)
 
