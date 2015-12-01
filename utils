@@ -1,7 +1,8 @@
+echo "in utils, $scriptpath"
+
 fancy_echo() {
   local fmt="$1"; shift
 
-  # shellcheck disable=SC2059
   printf "\n$fmt\n" "$@"
 }
 
@@ -22,6 +23,7 @@ append_to_zshrc() {
 
 brew_install_or_upgrade() {
   if brew_is_installed "$1"; then
+    fancy_echo "%s is installed" "$1"
     if brew_is_upgradable "$1"; then
       fancy_echo "Upgrading %s ..." "$1"
       brew upgrade "$@"

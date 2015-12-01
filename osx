@@ -39,14 +39,12 @@ chflags nohidden ~/Library/
 
 sudo spctl --master-disable
 
-# only show active apps in the the dock
-defaults write com.apple.dock static-only -bool true
+# remove all the persistent-apps
+defaults write com.apple.dock persistent-apps '<dict></dict>'
+
 
 # speed up wake from sleep - don't sleep until sleeping 24 hours
 sudo pmset -a standbydelay 86400
-
-# hide the spotlight menu
-sudo chmod 600 /System/Library/CoreServices/Search.bundle/Contents/MacOS/Search
 
 # expand the save panel by default
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
