@@ -8,6 +8,7 @@ cask_install kindle
 cask_install nvalt
 cask_install robomongo
 cask_install send-to-kindle
+cask_install sketchup
 cask_install skype
 cask_install slack
 cask_install slate
