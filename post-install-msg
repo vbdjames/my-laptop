@@ -19,5 +19,5 @@ manually.
 * add applications folder to dock, set to view as folder
 * set downloads to display as folder in dock
 * install app store apps
-* complete iterm setup - this is currently still borked - and it has to be launched to create its defaults before the script can change them (and other issues)
+* set up slack teams (757dev, codeforva)
 
