@@ -22,6 +22,7 @@ defaults -currentHost write -g com.apple.keyboard.modifiermapping.1452-601-0  -a
 # /Applications/Karabiner.app/Contents/Library/bin/karabiner reloadxml
 # /Applications/Karabiner.app/Contents/Library/bin/karabiner enable private.f192f19_escape
 
+defaults write com.apple.dock autohide -bool true
 defaults write com.apple.dock autohide-delay -float 0
 defaults write com.apple.dock no-glass -boolean true
 defaults write com.apple.universalaccess reduceTransparency -bool true
