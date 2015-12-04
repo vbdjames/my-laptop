@@ -1,1 +1,1 @@
-cask_install caskroom/homebrew-versions/java6
+cask_install java
