@@ -1,13 +1,13 @@
 #!/bin/sh
 
-cd ~
-
 if [[ $(ps aux | grep "[i]Term.app") ]]; then
     echo "Please quit iTerm before running this script"
     exit
 fi
 
 script_path="$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )"
+
+cd ~
 
 # ask for the administrator password upfront
 sudo -v
