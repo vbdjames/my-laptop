@@ -73,6 +73,7 @@ source "$script_path/macvim"
 source "$script_path/apps"
 source "$script_path/osx"
 source "$script_path/iterm"
+source "$script_path/text"
 
 brew cleanup
 brew linkapps

@@ -5,7 +5,7 @@ manually.
 
  1) Launch dropbox and login - get the sync started
  2) Change the launch key for Alfred to CTRL-SPACE
- 3) System Preferences -> Security & Privacy -> Privacy, enable Slate
+ 3) System Preferences -> Security & Privacy -> Privacy, enable Slate and Keyboard Maestro
  4) Set Slate to launch on login
  5) Once dropbox is synced, launch 1Password & set up sync to dropbox
  6) Launch Chrome, login, let it link to 1Password, install instapaper plugin

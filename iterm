@@ -92,7 +92,7 @@ do
         if exists "Print :New\ Bookmarks:$idx:Minimum\ Contrast"; then
             $plb -c "Set :New\ Bookmarks:$idx:Minimum\ Contrast 0.25" $dest
         else
-            $plb -c "Add :New\ Bookmarks:$idx:Minimum\ Contrast 0.25" $dest
+            $plb -c "Add :New\ Bookmarks:$idx:Minimum\ Contrast float 0.25" $dest
         fi
     fi
 done

@@ -1,0 +1,2 @@
+brew_install_or_upgrade ghostscript
+brew_install_or_upgrade multimarkdown

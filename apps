@@ -4,6 +4,7 @@ cask_install crashplan
 cask_install dropbox
 cask_install duet
 cask_install google-chrome
+cask_install keyboard-maestro
 cask_install kindle
 cask_install nvalt
 cask_install robomongo
