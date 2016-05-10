@@ -1,15 +1,12 @@
-# manos only
 brew_install_or_upgrade git
 brew_install_or_upgrade md5sha1sum
 cask_install virtualbox
 cask_install vagrant
 cask_install vagrant-manager
-cask_install intellij-idea-ce
+cask_install intellij-idea
 brew_install_or_upgrade mongodb
 ln -sfv /usr/local/opt/mongodb/*.plist ~/Library/LaunchAgents
 
-
-# manos & nextgen
 brew_install_or_upgrade the_silver_searcher
 brew_install_or_upgrade autojump
 brew_install_or_upgrade ack

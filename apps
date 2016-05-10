@@ -6,6 +6,7 @@ cask_install duet
 cask_install google-chrome
 cask_install keyboard-maestro
 cask_install kindle
+cask_install moneywell
 cask_install nvalt
 cask_install robomongo
 cask_install send-to-kindle
@@ -15,4 +16,3 @@ cask_install slack
 cask_install slate
 cask_install spotify
 cask_install taskpaper
-cask_install ynab
