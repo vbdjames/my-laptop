@@ -41,10 +41,10 @@ else
   git clone https://github.com/vbdjames/dotfiles.git ~/.dotfiles
 fi
 
-if [ ! -d "$HOME/.bin/" ]; then
-  mkdir "$HOME/.bin"
+if [ ! -d "$HOME/bin/" ]; then
+  mkdir "$HOME/bin"
 fi
-append_to_zshrc 'export PATH="$HOME/.bin:$PATH"'
+append_to_zshrc 'export PATH="$HOME/bin:$PATH"'
 
 fancy_echo "clone/update antigen"
 # pull down (or update) antigen
