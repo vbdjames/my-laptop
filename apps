@@ -7,6 +7,7 @@ cask_install dropbox
 cask_install duet
 cask_install f.lux
 cask_install google-chrome
+cask_install hammerspoon
 cask_install hipchat
 cask_install keyboard-maestro
 cask_install kindle
