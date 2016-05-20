@@ -6,6 +6,7 @@ cask_install dbeaver-enterprise
 cask_install dropbox
 cask_install duet
 cask_install f.lux
+cask_install fluid
 cask_install google-chrome
 cask_install hammerspoon
 cask_install hipchat
