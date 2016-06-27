@@ -5,21 +5,17 @@ manually.
 
  1) Launch dropbox and login - get the sync started
  2) Change the launch key for Alfred to CTRL-SPACE
- 3) System Preferences -> Security & Privacy -> Privacy, enable Slate and Keyboard Maestro
- 4) Set Slate to launch on login
- 5) Once dropbox is synced, launch 1Password & set up sync to dropbox
- 6) Launch Chrome, login, let it link to 1Password, install instapaper plugin
- 7) Launch Safari, let it link to 1Password, install instapaper plugin
- 8) Login to Spotify
- 9) Install Alfred Powerpack
+ 3) System Preferences -> Security & Privacy -> Privacy, enable Keyboard Maestro,
+    Synergy, Hammerspoon, Karabiner, Alfred, CheatSheet, DropBox
+ 4) Launch 1Password & set up sync
+ 5) Launch Chrome, login, let it link to 1Password, install pinboard plugin
+ 6) Launch Safari, let it link to 1Password, install pinboard plugin
+ 7) Login to Spotify
+ 8) Install Alfred Powerpack
 
 * setup favorites in finder
     + Home
     - All My Files
 * add applications folder to dock, set to view as folder
 * set downloads to display as folder in dock
-* install app store apps
 * set up slack teams (757dev, codeforva)
-* launch nvAlt and set to sync with Simplenote
-* > offlineimap
-* > notmuch new
