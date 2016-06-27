@@ -1,0 +1,26 @@
+brew_install_or_upgrade mas
+
+installed_apps="$(mas list | awk '{print $1}')"
+
+declare -a apps
+
+apps[407963104]="Pixelmator"
+apps[409183694]="Keynote"
+apps[409201541]="Pages"
+apps[409203825]="Numbers"
+apps[451907568]="Paprika"
+apps[1090488118]="Gemini 2: The Duplicate Finder"
+apps[425264550]="Blackmagic Disk Speed Test"
+
+for app in ${!apps[@]}
+do
+    if [[ "$installed_apps" =~ "$app" ]]
+    then
+        echo "${apps[$app]} is already installed"
+    else
+        echo "Installing ${apps[$app]}..."
+        mas install "${app}"
+    fi
+done
+
+mas upgrade

@@ -24,7 +24,8 @@ ln -sf ~/.dotfiles/karabiner ~/Library/Application\ Support/Karabiner/private.xm
 
 defaults write com.apple.dock autohide -bool true
 defaults write com.apple.dock autohide-delay -float 0
-defaults write com.apple.dock no-glass -boolean true
+defaults write com.apple.dock no-glass -bool true
+defaults write com.apple.dock no-bouncing -bool true
 defaults write com.apple.universalaccess reduceTransparency -bool true
 defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
